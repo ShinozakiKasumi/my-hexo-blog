@@ -1,0 +1,50 @@
+{
+  "zh-CN": {
+    "lang": "zh-CN",
+    "lang_path": "zh-cn",
+    "browser_lang_patterns": ["zh", "zh-cn", "zh-cn-*", "zh-sg", "zh-sg-*", "zh-hans", "zh-hans-*"],
+    "display_name": "简体中文",
+    "html_lang": "zh-CN",
+    "locale_label": "zh_CN",
+    "og_locale": "zh_CN",
+    "home_subtitle": "写一点字，留一点光。",
+    "home_description": "Akari 的简体中文首页，收录文章、片段与静下来的想法。",
+    "archive_description": "Akari 的简体中文归档页，按时间整理所有简体中文文章。"
+  },
+  "zh-TW": {
+    "lang": "zh-TW",
+    "lang_path": "zh-tw",
+    "browser_lang_patterns": ["zh-tw", "zh-tw-*", "zh-hk", "zh-hk-*", "zh-mo", "zh-mo-*", "zh-hant", "zh-hant-*"],
+    "display_name": "繁體中文",
+    "html_lang": "zh-TW",
+    "locale_label": "zh_TW",
+    "og_locale": "zh_TW",
+    "home_subtitle": "寫一點字，留一點光。",
+    "home_description": "Akari 的繁體中文首頁，收錄文章、片段與安靜下來的念頭。",
+    "archive_description": "Akari 的繁體中文歸檔頁，按時間整理所有繁體中文文章。"
+  },
+  "en": {
+    "lang": "en",
+    "lang_path": "en",
+    "browser_lang_patterns": ["en", "en-*"],
+    "display_name": "English",
+    "html_lang": "en",
+    "locale_label": "en_US",
+    "og_locale": "en_US",
+    "home_subtitle": "Notes, fragments, and a little light left behind.",
+    "home_description": "Akari in English: essays, fragments, and quiet thoughts collected in one place.",
+    "archive_description": "The English archive for Akari, ordered by date."
+  },
+  "ja": {
+    "lang": "ja",
+    "lang_path": "ja",
+    "browser_lang_patterns": ["ja", "ja-*"],
+    "display_name": "日本語",
+    "html_lang": "ja",
+    "locale_label": "ja_JP",
+    "og_locale": "ja_JP",
+    "home_subtitle": "言葉の断片と、少しだけ残しておきたい光。",
+    "home_description": "Akari の日本語版。文章の断片と思いつきを、静かに書き留めています。",
+    "archive_description": "Akari の日本語アーカイブを日付順にまとめたページです。"
+  }
+}
