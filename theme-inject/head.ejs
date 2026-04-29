@@ -1,0 +1,28 @@
+<%
+const vm = page_view_model(page)
+%>
+
+<link rel="canonical" href="<%= vm.canonical %>">
+<% vm.languageOptions.forEach(function(option) { %>
+  <link rel="alternate" hreflang="<%= option.lang %>" href="<%= option.absoluteUrl %>">
+<% }) %>
+<link rel="alternate" hreflang="x-default" href="<%= vm.xDefaultUrl %>">
+<meta name="language" content="<%= vm.currentLocale.lang %>">
+<% vm.ogAlternateLocales.forEach(function(locale) { %>
+  <meta property="og:locale:alternate" content="<%= locale %>">
+<% }) %>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZJ70X07H3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KZJ70X07H3');
+</script>
+<script defer src="https://umami.rikka.moe/script.js" data-website-id="1df28546-82b7-41b4-bee7-17084fcc766a"></script>
+
+<script>
+  window.__AKARI_LOCALE_ROUTING__ = <%- JSON.stringify(locale_routing_config(page)) %>;
+  CONFIG.search_path = "<%= vm.searchPath %>";
+</script>
+<script src="<%= url_for('/assets/js/akari-locale-routing.js') %>"></script>

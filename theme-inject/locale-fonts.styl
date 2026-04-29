@@ -1,0 +1,171 @@
+@font-face
+  font-family 'Akari Google Sans Flex'
+  src url('/assets/fonts/google-sans-flex-latin-subset.woff2') format('woff2')
+  font-style normal
+  font-weight 100 900
+  font-display swap
+  unicode-range U+0000-00FF, U+0100-024F, U+1E00-1EFF, U+2000-206F
+
+@font-face
+  font-family 'Akari PingFang SC'
+  src url('/assets/fonts/pingfang-sc-regular-subset.woff2') format('woff2')
+  font-style normal
+  font-weight 400
+  font-display swap
+  unicode-range U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF
+
+@font-face
+  font-family 'Akari PingFang SC'
+  src url('/assets/fonts/pingfang-sc-semibold-subset.woff2') format('woff2')
+  font-style normal
+  font-weight 600
+  font-display swap
+  unicode-range U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF
+
+@font-face
+  font-family 'Akari PingFang HK'
+  src url('/assets/fonts/pingfang-hk-regular-subset.woff2') format('woff2')
+  font-style normal
+  font-weight 400
+  font-display swap
+  unicode-range U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF
+
+@font-face
+  font-family 'Akari PingFang HK'
+  src url('/assets/fonts/pingfang-hk-semibold-subset.woff2') format('woff2')
+  font-style normal
+  font-weight 600
+  font-display swap
+  unicode-range U+3000-303F, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF
+
+html[data-font-locale='zh-cn'] body,
+html[data-font-locale='zh-cn'] button,
+html[data-font-locale='zh-cn'] input,
+html[data-font-locale='zh-cn'] textarea,
+html[data-font-locale='zh-cn'] select,
+html:not([data-font-locale])[lang='zh-CN'] body,
+html:not([data-font-locale])[lang='zh-CN'] button,
+html:not([data-font-locale])[lang='zh-CN'] input,
+html:not([data-font-locale])[lang='zh-CN'] textarea,
+html:not([data-font-locale])[lang='zh-CN'] select
+  font-family 'Akari PingFang SC', 'Akari Google Sans Flex', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif
+
+html[data-font-locale='zh-tw'] body,
+html[data-font-locale='zh-tw'] button,
+html[data-font-locale='zh-tw'] input,
+html[data-font-locale='zh-tw'] textarea,
+html[data-font-locale='zh-tw'] select,
+html:not([data-font-locale])[lang='zh-TW'] body,
+html:not([data-font-locale])[lang='zh-TW'] button,
+html:not([data-font-locale])[lang='zh-TW'] input,
+html:not([data-font-locale])[lang='zh-TW'] textarea,
+html:not([data-font-locale])[lang='zh-TW'] select
+  font-family 'Akari PingFang HK', 'Akari Google Sans Flex', 'PingFang TC', 'PingFang HK', 'Heiti TC', sans-serif
+
+html[data-font-locale='en'] body,
+html[data-font-locale='en'] button,
+html[data-font-locale='en'] input,
+html[data-font-locale='en'] textarea,
+html[data-font-locale='en'] select,
+html:not([data-font-locale])[lang='en'] body,
+html:not([data-font-locale])[lang='en'] button,
+html:not([data-font-locale])[lang='en'] input,
+html:not([data-font-locale])[lang='en'] textarea,
+html:not([data-font-locale])[lang='en'] select
+  font-family 'Akari Google Sans Flex', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif
+
+html[data-font-locale='ja'] body,
+html[data-font-locale='ja'] button,
+html[data-font-locale='ja'] input,
+html[data-font-locale='ja'] textarea,
+html[data-font-locale='ja'] select,
+html:not([data-font-locale])[lang='ja'] body,
+html:not([data-font-locale])[lang='ja'] button,
+html:not([data-font-locale])[lang='ja'] input,
+html:not([data-font-locale])[lang='ja'] textarea,
+html:not([data-font-locale])[lang='ja'] select
+  font-family 'Akari Google Sans Flex', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', sans-serif
+
+.locale-switch__current
+  font-weight 600
+
+.mobile-grid-item--active
+  border 1px solid rgba(255, 255, 255, 0.35)
+
+.about-panel,
+.locale-chooser
+  max-width 780px
+  margin 0 auto
+
+.about-panel
+  text-align center
+  padding 1rem 0 2rem
+
+.about-panel__avatar
+  width 128px
+  height 128px
+  border-radius 50%
+  object-fit cover
+  box-shadow 0 18px 40px rgba(0, 0, 0, 0.16)
+  margin-bottom 1rem
+
+.about-panel__name
+  margin-bottom 0.75rem
+  font-size 2rem
+  font-weight 600
+
+.about-panel__intro
+  margin-bottom 1rem
+  color var(--text-color, #3c4858)
+  line-height 1.9
+
+.about-panel__links
+  display flex
+  justify-content center
+  gap 0.75rem
+  flex-wrap wrap
+
+.about-panel__link
+  display inline-flex
+  align-items center
+  justify-content center
+  min-width 120px
+  padding 0.65rem 1rem
+  border-radius 999px
+  background rgba(47, 65, 84, 0.08)
+  color inherit
+  text-decoration none !important
+
+.locale-chooser__lead
+  margin-bottom 2rem
+  text-align center
+  line-height 1.9
+
+.locale-chooser__grid
+  display grid
+  grid-template-columns repeat(2, minmax(0, 1fr))
+  gap 1rem
+
+.locale-chooser__card
+  display block
+  padding 1.25rem
+  border-radius 20px
+  background linear-gradient(135deg, rgba(47, 65, 84, 0.08), rgba(47, 65, 84, 0.03))
+  color inherit
+  text-decoration none !important
+  box-shadow 0 18px 40px rgba(0, 0, 0, 0.08)
+
+.locale-chooser__card-title
+  display block
+  margin-bottom 0.4rem
+  font-size 1.2rem
+  font-weight 600
+
+.locale-chooser__card-copy
+  display block
+  color var(--text-color, #3c4858)
+  line-height 1.8
+
+@media (max-width: 767px)
+  .locale-chooser__grid
+    grid-template-columns 1fr
