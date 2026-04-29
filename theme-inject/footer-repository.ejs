@@ -1,0 +1,17 @@
+<%
+const vm = page_view_model(page)
+const labels = {
+  'zh-cn': '本博客源码',
+  'zh-tw': '本部落格原始碼',
+  en: 'Blog source',
+  ja: 'ブログのソース'
+}
+const label = labels[vm.currentLocale.lang_path] || labels.en
+%>
+
+<div class="footer-repository">
+  <a href="https://github.com/ShinozakiKasumi/my-hexo-blog" target="_blank" rel="noopener noreferrer">
+    <i class="iconfont icon-github-fill" aria-hidden="true"></i>
+    <span><%= label %></span>
+  </a>
+</div>

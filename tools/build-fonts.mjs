@@ -47,7 +47,7 @@ const FONT_SOURCES = [
 
 const LATIN_UI_TEXT = `
 Akari
-Home Archives About Search GitHub
+Home Archives About Search GitHub Blog source
 Choose Your Language
 Notes, fragments, and a little light left behind.
 Enter Akari in Simplified Chinese, Traditional Chinese, English, or Japanese.
@@ -57,7 +57,7 @@ I hope these quiet sentences can keep a little light from going out.
 
 const ZH_CN_UI_TEXT = `
 Akari
-简体中文 首页 归档 关于 搜索 选择语言 GitHub
+简体中文 首页 归档 关于 搜索 选择语言 GitHub 本博客源码
 写一点字，留一点光。
 这里是 Akari 的个人博客，写一些文字、片段与想法。
 愿这些安静的句子，也能替我留住一点光。
@@ -65,7 +65,7 @@ Akari
 
 const ZH_TW_UI_TEXT = `
 Akari
-繁體中文 首頁 歸檔 關於 搜尋 選擇語言 GitHub
+繁體中文 首頁 歸檔 關於 搜尋 選擇語言 GitHub 本部落格原始碼
 寫一點字，留一點光。
 這裡是 Akari 的個人部落格，寫一些文字、片段與念頭。
 願這些安靜的句子，也能替我留住一點光。

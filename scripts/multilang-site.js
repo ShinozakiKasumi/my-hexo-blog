@@ -263,6 +263,7 @@ hexo.extend.filter.register('after_render:html', function(html, data) {
 
 hexo.extend.filter.register('theme_inject', function(injects) {
   injects.header.file('default', path.join(hexo.base_dir, 'theme-inject/header.ejs'));
+  injects.footer.file('repository', path.join(hexo.base_dir, 'theme-inject/footer-repository.ejs'));
   injects.head.file('locale-seo', path.join(hexo.base_dir, 'theme-inject/head.ejs'));
   injects.style.push(path.join(hexo.base_dir, 'theme-inject/locale-fonts.styl'));
 });
