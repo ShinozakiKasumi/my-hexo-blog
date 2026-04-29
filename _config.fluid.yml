@@ -1,0 +1,61 @@
+fun_features:
+  typing:
+    enable: false
+
+navbar:
+  blog_title: "Akari"
+  menu: []
+
+code:
+  highlight:
+    enable: true
+    line_number: true
+    lib: "highlightjs"
+    highlightjs:
+      style: "github gist"
+      style_dark: "github dark"
+
+search:
+  enable: true
+  path: /local-search.xml
+  generate_path: /local-search.xml
+  field: post
+  content: true
+
+index:
+  slogan:
+    enable: false
+    text: ""
+
+archive:
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.3
+
+category:
+  enable: false
+
+tag:
+  enable: false
+
+links:
+  enable: false
+
+about:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.3
+  avatar: /wp-content/uploads/2026/04/cropped-0687c4e3843e0631b71f324ab459a9bf-300x300.jpg
+  name: "Akari"
+  intro: "光•遇"
+  icons:
+    - { class: "iconfont icon-github-fill", link: "https://github.com/ShinozakiKasumi", tip: "GitHub" }
+
+canonical:
+  enable: false
+
+post:
+  meta:
+    category: false
+    tag: false
